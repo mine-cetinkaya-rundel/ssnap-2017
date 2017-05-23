@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\input{../../app_style.tex}
+
+%%%%%%%%%%%
+% App Ex number    %
+%%%%%%%%%%%
+
+% DON'T FORGET TO UPDATE
+
+\newcommand{\appno}[1]
+{2}
+
+%%%%%%%%%%%%%%
+% Turn on/off solutions       %
+%%%%%%%%%%%%%%
+
+% Off
+\newcommand{\soln}[2]{$\:$\\ \vspace{#1}}{}
+
+%% On
+%\newcommand{\soln}[2]{\textit{\textcolor{custom_red}{#2}}}{}
+
+%%%%%%%%%%%%%%%%
+% Document
+%%%%%%%%%%%%%%%%
+
+\begin{document}
+\fontspec[Ligatures=TeX]{Helvetica Neue Light}
+
+Dr. \c{C}etinkaya-Rundel
+Duke University - Department of Statistical Science \hfill \\
+
+\ttl{Application exercise \appno{}: \\
+Berkeley admissions}
+
+\begin{enumerate}
+
+\item What percent of males are admitted to Berkeley? What percent of females?
+
+\begin{tabular}{l | c | c}
+		& admitted & rejected \\
+\hline
+male		& 1198	  & 1493 \\
+female	& 557         & 1278
+\end{tabular}
+
+\item What percent of females are admitted to each department at Berkeley?
+
+\begin{tabular}{l | c | c}
+Dept A	& admitted & rejected \\
+\hline
+male		& 512	  & 313 \\
+female	& 89          & 19
+\end{tabular}
+
+\begin{tabular}{l | c | c}
+Dept B	& admitted & rejected \\
+\hline
+male		& 353	  & 207 \\
+female	& 17          & 8
+\end{tabular}
+
+\begin{tabular}{l | c | c}
+Dept C	& admitted & rejected \\
+\hline
+male		& 120	  & 205 \\
+female	& 202          & 391
+\end{tabular}
+
+\begin{tabular}{l | c | c}
+Dept D	& admitted & rejected \\
+\hline
+male		& 138	  & 279 \\
+female	& 131          & 244
+\end{tabular}
+
+\begin{tabular}{l | c | c}
+Dept E	& admitted & rejected \\
+\hline
+male		& 53   	  & 138 \\
+female	& 94           & 299
+\end{tabular}
+
+\begin{tabular}{l | c | c}
+Dept F	& admitted & rejected \\
+\hline
+male		& 22   	  & 351 \\
+female	& 24           & 317
+\end{tabular}
+
+
+\end{enumerate}
+
+
+\end{document}
